@@ -27,7 +27,7 @@ type QRCodeType = "HCT" | "RTP";
 /*
  * Represents the content of an Instant Transfer QR code according to the standard created by the Hungarian National Bank.
  */
-class InstantTransferQR {
+export class InstantTransferQR {
   readonly type: QRCodeType;
   readonly version: string;
   readonly charset: "1";
