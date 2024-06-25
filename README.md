@@ -3,6 +3,12 @@
 
 ### Example
 ```js
+
+  import { InstantTransferQR } from "mnb-afr-qr";
+  //OR
+  const afr = require("mnb-afr-qr");
+  const {InstantTransferQR} = afr;
+
   const transferPayload = InstantTransferQR.newHCTQR({
     bic: "BIC",
     iban: "IBAN",
