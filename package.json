@@ -12,5 +12,17 @@
     "scripts": {
         "build": "tsup index.ts --format cjs,esm --dts",
         "lint": "tsc"
-    }
+    },
+    "keywords": [
+        "afr",
+        "azonnali fizetés",
+        "qr",
+        "qr code",
+        "mnb",
+        "magyar nemzeti bank",
+        "nemzeti bank",
+        "instant transfer",
+        "hungarian",
+        "hungarian national bank"
+    ]
 }
