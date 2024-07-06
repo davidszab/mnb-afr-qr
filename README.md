@@ -1,5 +1,5 @@
 # MNB AFR QR
-## Library for generating QR code payloads based on the standard by the Hungarian National Bank.
+Library for generating QR code payloads based on the standard by the Hungarian National Bank.
 
 ### Example
 ```js

@@ -1,7 +1,7 @@
 {
     "name": "mnb-afr-qr",
     "license": "MIT",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
     "types": "dist/index.d.ts",
@@ -12,6 +12,10 @@
     "scripts": {
         "build": "tsup index.ts --format cjs,esm --dts",
         "lint": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/davidszab/mnb-afr-qr"
     },
     "keywords": [
         "afr",
